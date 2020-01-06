@@ -27,3 +27,4 @@ Below is a list of resources that will be useful for designing and implementing 
 - [Virtual Environment Windows](https://programwithus.com/learn-to-code/Pip-and-virtualenv-on-Windows/)
 - [RESTful API Design Guide](https://apiguide.readthedocs.io/en/latest/build_and_publish/use_RESTful_urls.html)
 - [Flask API Demo](https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask)
+- [Flask Web Application](https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/)
