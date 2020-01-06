@@ -1,0 +1,11 @@
+
+DROP TABLE IF EXISTS customer;
+
+CREATE TABLE customer (
+    id INT PRIMARY KEY AUTOINCREMENT,
+    first_name VARCHAR(64) NOT NULL,
+    last_name VARCHAR(64) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    department VARCHAR(255) NOT NULL
+)
