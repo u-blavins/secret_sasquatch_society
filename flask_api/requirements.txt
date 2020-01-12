@@ -1,1 +1,5 @@
 flask
+azure-cli
+pyodbc
+sqlalchemy
+urllib3
