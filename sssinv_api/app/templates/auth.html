@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>AAD Inventory Manager</title>
+    </head>
+    <body>
+        <div class = "container">
+            <h4>Register</h4>
+            <br>
+            <form method=post action="/auth/register">
+                <input name='fname' type="text" placeholder="First name"><br><br>
+                <input name='lname' type="text" placeholder="Last name"><br><br>
+                <input name='email' type="email" placeholder="Email"><br><br>
+                <input name='pass' type="password" placeholder="Password"><br><br>
+                <input name='conpass' type="password" placeholder="Confirm password"><br><br>
+                <input name='deptcode' type="text" placeholder="Department Code"><br><br>
+                <p><input type=submit value=Register></p>
+            </form>
+        </div>
+        <div class = "container">
+            <h1>Login</h1>
+            <br>
+            <form method=post action="/auth/login">
+                <input name='email' type="email" placeholder="Email"><br><br>
+                <input name='pass' type="password" placeholder="Password"><br><br>
+                <p><input type="submit" value=Login></p>
+            </form>
+        </div>
+    </body>
+</html>
