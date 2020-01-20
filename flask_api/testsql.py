@@ -16,7 +16,7 @@ reg = {
 
 log = {
     'email': 'test@test.com',
-    'pass': 'cunt'
+    'pass': 'pass'
 }
 
 cnxn = pyodbc.connect(
