@@ -5,18 +5,9 @@
         <title>Secret Sasquatch Society</title>
     </head>
     <body>
+        {% block content %}
         <h1>Register</h1>
-        <form>
-            <input type="text" name="fname" placeholder="First Name">
-            <input type="text" name="lname" placeholder="Last Name">
-            <input type="email" name="email" placeholder="Email">
-            <input type="password" name="password" placeholder="Password">
-            <input type="password" name="retype_password" placeholder="Retype Password">
-            <select name="department">
-                <option value="COMPSCI">Computer Science</option>
-                <option value="SOFTENG">Software Engineering</option>
-                <option value="INFOTEC">Information Technology</option>
-            </select>
-        </form>
+        
+        {% endblock%}
     </body>
 </html>
